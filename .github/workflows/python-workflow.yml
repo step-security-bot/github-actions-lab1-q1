@@ -32,5 +32,5 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-    - name: Sudo Curl
-      run: sudo curl google.com
+    - name: Echo
+      run: echo "213" > README.md
